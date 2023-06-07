@@ -1,0 +1,7 @@
+*.log
+*.cpp:tests
+
+
+!*.cpp
+!.gitignore
+!readme.md
