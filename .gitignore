@@ -1,3 +1,9 @@
+#graph 
+*
+
+!Graph Theory/*.cpp
+
+
 *.log
 *.cpp:tests
 
