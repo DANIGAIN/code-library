@@ -1,21 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std ;
 /*
-by  the looking of the algotithm bfs & dfs -- >
+   problem name : Underected Graph 
 
-n = node 
-e = eage 
+   Algorithm : DFS  
 
-bast case complexity : 
+   problem Description : 
 
-Time :  O(e)
+   n = node 
+   e = eage 
 
-Space : O(n)
+   worst case time complexity : 
+
+   Time :  O(e)
+
+   Space : O(n)
 
 
 */
-
-
-#include <bits/stdc++.h>
-using namespace std ;
 
 
 unordered_map<char ,unordered_set<char>>buildGraph(char edges[5][2])
@@ -74,11 +76,6 @@ int32_t main()
     {
     	cout<<"not found"<<endl ;
     }
-
-
-   
-
-
 
 
     //  -----------------------------map travercal ----------------------//

@@ -1,11 +1,16 @@
-#graph 
-*
+#permission all
+
+Graph Theory/*
+Array/*
+STL/*
+Tree/*
+Dynamic Programming Optimizations/*
 
 !Graph Theory/*.cpp
-
-
-*.log
-*.cpp:tests
+!Array/*.cpp
+!STL/*.cpp
+!Tree/*.cpp
+!Dynamic Programming Optimizations/*.cpp
 
 
 !*.cpp
