@@ -76,6 +76,8 @@ int32_t main()
     		break ;
     	}
     }
+     
+    if(j == -1 ) return a ;
 
     for(int i = j+1 ;i<n ;i++)
     {
