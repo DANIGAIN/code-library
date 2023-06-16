@@ -36,13 +36,28 @@ using namespace std ;
 
 
    //-------------------------------------- optimal solution  ------------------------------- //
-             i
+      
+      stap  1 : i
       a[] = {1,2,3,4,5} ;
       
              j 
       b[] = {2,3,4,4,5};
 
       vector store = min 
+      stap 2 : 
+      exta elemnt of the large array 
+         v = exta  
+
+
+
+   worst case time complexity : 
+
+   Time :  O(n+m)
+
+   Space : O(n +m) 
+
+
+
 
 
 
@@ -52,11 +67,11 @@ using namespace std ;
 
 int32_t main()
 {
-     int a[] = {1,2,3,4,5} ;
+     int a[] = {1,2,3,4,5,10} ;
      int  b[] = {2,3,4,4,5};
 
 
-   int n = 5 ,m = 5 ;
+   int n = 6 ,m = 5 ;
 
    //------------------------------------------------  bruteforce approce  ------------------- //
 	// set<int> s;
