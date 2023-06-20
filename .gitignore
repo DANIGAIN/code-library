@@ -5,12 +5,19 @@ Array/*
 STL/*
 Tree/*
 Dynamic Programming Optimizations/*
+Implementation/*
+Sliding Window/*
+Math/*
+
 
 !Graph Theory/*.cpp
 !Array/*.cpp
 !STL/*.cpp
 !Tree/*.cpp
 !Dynamic Programming Optimizations/*.cpp
+!Sliding Window/*.cpp
+!Implementation/*.cpp
+!Math/*.cpp
 
 
 !*.cpp
