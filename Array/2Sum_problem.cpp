@@ -77,27 +77,27 @@ int32_t main()
 
  //---------------------------- Optimal solution  -------------------------//
 
-    int i = 0 , j = n;
+   //  int i = 0 , j = n;
 
-    int  flag =  0 ;
+   //  int  flag =  0 ;
 
-    while(i< j)
-    {
-         int sum = a[i] + a[j] ;
+   //  while(i< j)
+   //  {
+   //       int sum = a[i] + a[j] ;
 
-         if(sum == target)
-         {
-         	flag = 1 ;
-         	break ;
-         }
-         else if(sum < target) i++ ;
-         else j-- ;
-    }
+   //       if(sum == target)
+   //       {
+   //       	flag = 1 ;
+   //       	break ;
+   //       }
+   //       else if(sum < target) i++ ;
+   //       else j-- ;
+   //  }
 
-   if(flag) 
-   	   cout<<"yes"<<endl;
-   	else 
-   	  cout<<"No"<<endl;
+   // if(flag) 
+   // 	   cout<<"yes"<<endl;
+   // 	else 
+   // 	  cout<<"No"<<endl;
 
    // time : O(n) + o(N log n);
    // space : O(1)
