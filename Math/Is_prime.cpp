@@ -20,6 +20,6 @@ int32_t main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-	cout<<isPrime(4)<<endl;
+	cout<<isPrime(2)<<endl;
 	return 0 ;
 }
