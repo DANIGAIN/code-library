@@ -8,6 +8,7 @@ Dynamic Programming Optimizations/*
 Implementation/*
 Sliding Window/*
 Math/*
+Bit Manupulation/*
 
 
 !Graph Theory/*.cpp
@@ -18,6 +19,7 @@ Math/*
 !Sliding Window/*.cpp
 !Implementation/*.cpp
 !Math/*.cpp
+!Bit Manupulation/*.cpp
 
 
 !*.cpp
