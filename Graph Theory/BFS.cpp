@@ -1,39 +1,65 @@
 #include <bits/stdc++.h>
 using namespace std ;
+/*
+   problem name : Implementation 
 
-void breadthFirstPrint(unordered_map<char , list <char>>graph , char c)
+   Algorithm : BFS 
+
+  Time Complexity: O(N) + O(2E), Where N = Nodes, 2E is for total degrees as we traverse all adjacent nodes.
+
+
+  Space Complexity: O(3N) ~ O(N), Space for queue data structure visited array and an adjacency list . 
+     
+
+     
+*/
+
+std::vector<int> Graph_bfs(std::vector<int> adj[] , int n , int s )
 {
-	queue<char> q ;
-	q.push(c);
+	int visit[n] = {0};
+	visit[s] = 1 ;
+	queue<int> q ;
+	q.push(s);
+	std::vector<int> bfs ;
+
 	while(!q.empty())
 	{
-		char current = q.front();
-		cout<<current<<" ";
+		int node = q.front();
 		q.pop();
-		for(char neighbor  : graph[current])
+		bfs.push_back(node);
+		for(auto it : adj[node])
 		{
-			q.push(neighbor);
+			if(!visit[it])
+			{
+				visit[it] = 1 ;
+				q.push(it);
+			}
 		}
 	}
+	return bfs ;
 }
-
-
-
-
-
 
 int32_t main()
 {
-    unordered_map<char,list<char>>graph;
 
-	graph['a'] = {'c','b'};
-	graph['b'] = {'d'};
-	graph['c'] = {'e'};
-	graph['d'] = {'f'};
-	graph['e'] = {};
-	graph['f'] = {};
+    std::vector<int> adj[5];
 
-	breadthFirstPrint(graph ,'a');//a c b e d f
+    int n = 5 ;
+    int m = 6 ;
+    adj[0] = {1,2};
+    adj[1]  = {0,2,3};
+    adj[2] = {0,1,4} ;
+    adj[3] = {1,4};
+    adj[4] = {2,3};
+
+    std::vector<int> ans = Graph_bfs(adj , n , 0 );
+
+
+    for(int i = 0 ;i< ans.size() ; i++)
+    {
+    	cout<<ans[i]<<" ";
+    } 
+
 
    return 0 ;
 }
