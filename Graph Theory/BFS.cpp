@@ -1,65 +1,110 @@
 #include <bits/stdc++.h>
 using namespace std ;
 /*
-   problem name : Implementation 
-
-   Algorithm : BFS 
-
-  Time Complexity: O(N) + O(2E), Where N = Nodes, 2E is for total degrees as we traverse all adjacent nodes.
 
 
-  Space Complexity: O(3N) ~ O(N), Space for queue data structure visited array and an adjacency list . 
-     
-
-     
-*/
-
-std::vector<int> Graph_bfs(std::vector<int> adj[] , int n , int s )
-{
-	int visit[n] = {0};
-	visit[s] = 1 ;
-	queue<int> q ;
-	q.push(s);
-	std::vector<int> bfs ;
-
-	while(!q.empty())
-	{
-		int node = q.front();
-		q.pop();
-		bfs.push_back(node);
-		for(auto it : adj[node])
-		{
-			if(!visit[it])
-			{
-				visit[it] = 1 ;
-				q.push(it);
-			}
-		}
-	}
-	return bfs ;
-}
-
-int32_t main()
-{
-
-    std::vector<int> adj[5];
-
-    int n = 5 ;
-    int m = 6 ;
-    adj[0] = {1,2};
-    adj[1]  = {0,2,3};
-    adj[2] = {0,1,4} ;
-    adj[3] = {1,4};
-    adj[4] = {2,3};
-
-    std::vector<int> ans = Graph_bfs(adj , n , 0 );
+  problem name :   Breadth First  search  // level order travercal -- > 
 
 
-    for(int i = 0 ;i< ans.size() ; i++)
-    {
-    	cout<<ans[i]<<" ";
-    } 
+          1      = l0 
+         2  6    = l1 
+       3 4 7 8   = l2 
+
+*/ 
+
+// void breadthFirstPrint(unordered_map<char , list <char>>graph , char c)
+// {
+// 	queue<char> q ;
+// 	q.push(c);
+// 	while(!q.empty())
+// 	{
+// 		char current = q.front();
+// 		cout<<current<<" ";
+// 		q.pop();
+// 		for(char neighbor  : graph[current])
+// 		{
+// 			q.push(neighbor);
+// 		}
+// 	}
+// }
 
 
-   return 0 ;
+
+
+
+
+// int32_t main()
+// {
+//     unordered_map<char,list<char>>graph;
+
+// 	graph['a'] = {'c','b'};
+// 	graph['b'] = {'d'};
+// 	graph['c'] = {'e'};
+// 	graph['d'] = {'f'};
+// 	graph['e'] = {};
+// 	graph['f'] = {};
+
+// 	breadthFirstPrint(graph ,'a');//a c b e d f
+
+//    return 0 ;
+// }
+
+
+
+
+class Solution {
+  public:
+    // Function to return Breadth First Traversal of given graph.
+    vector<int> bfsOfGraph(int V, vector<int> adj[]) {
+        vector<int> bfs ;
+        int vis[V] = {0};
+        vis[0] = 1;
+        queue<int> q ;
+        q.push(0);
+        while(!q.empty())
+        {
+            int node = q.front();
+            q.pop();
+            bfs.push_back(node);
+            for(auto it:adj[node])
+            {
+                if(!vis[it])
+                {
+                    q.push(it);
+                    vis[it] = 1 ;
+                }
+            }
+        }
+        return bfs ;
+    }
+};
+
+//{ Driver Code Starts.
+int main() {
+    int tc;
+    cin >> tc;
+    while (tc--) {
+        int V, E;
+        cin >> V >>
+
+            E;
+
+        vector<int> adj[V];
+
+        for (int i = 0; i < E; i++) {
+            int u, v;
+            cin >> u >> v;
+            adj[u].push_back(v);
+            // 		adj[v].push_back(u);
+        }
+        // string s1;
+        // cin>>s1;
+        Solution obj;
+        vector<int> ans = obj.bfsOfGraph(V, adj);
+        for (int i = 0; i < ans.size(); i++) {
+            cout << ans[i] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
 }

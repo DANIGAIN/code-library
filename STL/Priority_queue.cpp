@@ -5,9 +5,11 @@ using namespace std ;
 int32_t main()
 {
 
-	//store assending order -->  
+	//store assending order  -->  
 	//priority_queue<int,vector<int>,greater<int>> pq ;
 
+
+    //store decending order  --> 
 	priority_queue<int> pq;
 
 	pq.push(1);
