@@ -47,6 +47,17 @@ Solution 1 :
     nCr = n!/ r! * (n-r)!  
 
 
+Solution 2 : 
+   
+           n = 5  
+
+           ans = 1 4 6 4 1 
+
+           1 4/1  4 *3 /1 *2  4*3*2/1 *2 *3  
+
+
+
+
 */
 
 long long funnCr(int n,int r)
