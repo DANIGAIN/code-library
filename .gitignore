@@ -9,6 +9,7 @@ Implementation/*
 Sliding Window/*
 Math/*
 Bit Manupulation/*
+Sort/*
 
 
 !Graph Theory/*.cpp
@@ -20,6 +21,7 @@ Bit Manupulation/*
 !Implementation/*.cpp
 !Math/*.cpp
 !Bit Manupulation/*.cpp
+!Sort/*.cpp
 
 
 !*.cpp
