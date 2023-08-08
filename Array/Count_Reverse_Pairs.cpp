@@ -3,6 +3,9 @@ using namespace std ;
 /*
    problem name : Count reverse pair
 
+
+   ptoblem link : https://leetcode.com/problems/reverse-pairs/
+
    Algorithm : Array
 
    problem Description : 
@@ -23,6 +26,8 @@ using namespace std ;
    {14,2}
    {9,2}
    {6,2}
+
+   ans : 11 
    
 
 
