@@ -1,0 +1,88 @@
+//-------------------------- STL -----------------------------------//
+
+vector -------------------------------------------->>
+
+v.push_back(x) = O(1)
+v.pop_back()  = O(1)
+v.size()      = O(1)
+v.empty()     = O(1)
+v.clear()     = O(n)
+v.fornt()     = O(1)
+v.back()      = O(1)
+v.at(2)       = O(1) //get the elament with a specific index 
+v.resize(10)  = O(n) //change  the size of the vector
+v.assign(5,10)= O(n) //clear all assign new value in the vector 
+v.erase(it)      = O(n);
+v.erase(it,it)      = O(n);
+v.insert(it,val) = 0(n);
+reverse(it ,it)  = O(n);
+sort(it,it)      = O(n log n);
+
+swap(vec,vec)    = O(n)
+find()           = O(n)
+
+count()         = O(n)  //return interger --->>
+min_element(range)=O(n) 
+
+
+string ---------------------------------------------->
+s.substr(s ,m) = O(m)
+s.find()       = O(n)
+=+             = O(1)
+s = s +"w"     = O(n)
+
+ priority queue ----------------------------------->>
+
+ push()   = O(log n)
+ pop()    = O (log n)
+
+
+set ------------------------------------->>
+
+
+st.insert(x)      = O(log n)
+st.erase(x)       = O(log n)
+st.erase(it)       = O(1)
+st.find(x)         = O(log n) //return iterator
+st.count(3)        = O(log n)
+
+
+map --------------------------------------->>
+mp.insert(pair)  = O(log n)
+access           = O(log n)
+find             = O(log n)
+mp.erase()       = O(log n)
+size()           = O(n)
+empty()          = O(1)
+mp.clear()       = O(n)
+lower_bound()    = O(log n)
+upper_bound()    = O(log n)
+
+bitset ------------------------------------>>
+W = your computer bit 32/64
+bs.set(1)        = O(1)
+bs.reset(1)        = O(1)
+bs.flip(1)        = O(1)
+bs.set()         = O(n/w)
+bs.reset()       = O(n/w)
+bs.flip()        = O(n/w)
+bs.count()       = O(n/W) //count 1 
+bs.to_ullong()   = O(1) //unsigned long  long 
+bs.to_string()   = 0(n)
+bs.any()         = 0(n/w) //check any bit is set
+bs.none()        = O(n/W) //check no bit is set 
+bs.all()         = O(n/W) //check all bit is set 
+<<, >>,^,|,&,~   = O(n/w)
+
+
+
+
+
+
+
+
+
+
+
+
+
