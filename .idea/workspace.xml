@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11bef032-dc12-4630-bee4-e0f1dece8111" name="Changes" comment="createing new branch">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/2Sum_problem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/3Sum_problem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/4Sum_problem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Best_Time_to_By_and_sell_Stock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Check_if_the_array_is_sorted.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Count_Inversions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Count_Reverse_Pairs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Count_subarray_with_xor_as_k.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Find_missing_number_in_an_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Find_the_Missing_and_Repeating_Number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Find_the_number_that_appears_once_and_the_other_numbers_twice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Intersection_of_Two_Sorted_Arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Leaders_in_an_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Left_Rotate_an_arrry_by_k_place.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Left_Rotate_an_arrry_by_one_place.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Longest_Consecutive_Sequence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Majority_Element_greater_then_half_time.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Majority_Elements_greater_then_N_by_3_times.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Marge_overlapping_subinterval.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Max_product_of_the_subarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Max_sum_of_subarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Maximum_Consecutive_Ones.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Move_all_Zeros_to_the_end_of_the_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Next_permutation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Pascal_Triangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Rearranging_array_element.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Remove_Duplicates_from_Sorted_Array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Right_Rotate_an_array_by_k_place.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Rotate_matrix_or_image_by_90_degree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Second_Largest_Element_in_an_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Set_Matrix_Zeroes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Sorting_an_array_0s_1s_2s.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Spiral_Matrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/Union_of_Two_Sorted_Arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/All_the_xor_1_to_N.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/check_i_th_bit_is_set_or_not.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/check_is_a_number_of_power_of_2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/clear_the_i_th_bit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/count_the_set_bit_of_a_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/remove_the_last_set_bit_of_a_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/set_the_i_th_bit_of_a_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/swap_two_number_using_xor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bit Manupulation/xor_l_to_r.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming Optimizations/01 knapsack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming Optimizations/Sliding window/all_unique.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming Optimizations/Sliding window/largest_subarray_k_unique_char.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dynamic Programming Optimizations/Sliding window/max_of_all_sub_array.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/BFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/Count_leafs_node_using_DFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/DFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/Has_path.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/Number_of_provinces.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph Theory/implement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implementation/Brackets_Sequence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/GCD.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/Is_prime.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/armStrong_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/count_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/prime_number_find_of_nth_position.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/print_all_divisor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math/reverse_number.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/BitSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Deque.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Pair.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Priority_queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Set.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Tuple.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Unorder_Map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/multiset.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL/string.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding Window/Count_Occurrences_Of_Anagrams.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding Window/Count_Subarray_sum_Equals_K.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding Window/First_Negative_Number_in_every_Window_size_k.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding Window/Longest_subarray_of_sum_k.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sliding Window/Max_sum_of_size_k.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/Merge.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/Merge_two_Sorted_Arrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/bubble.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/bubble_Use_Recursion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/insertion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/insertion_Use_Resursion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/quick.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/selection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/BFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/Binary_Tree_Path_Sum_DFS_.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/PathWithGivenSequence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/TreeDiameter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/Zig_Zag(BFS).cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/levelOrderSuccessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/minimam_defth_of_tree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/path_sum_ans.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/preorder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/problem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/right_view.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/complexity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointer.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cpp" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2sePHkuLV3mnDlAsJcCmJiJyvPv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/home/dani/code-library/oop/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11bef032-dc12-4630-bee4-e0f1dece8111" name="Changes" comment="" />
+      <created>1738812982639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738812982639</updated>
+    </task>
+    <task id="LOCAL-00001" summary="createing new branch">
+      <option name="closed" value="true" />
+      <created>1738813478881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738813478881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add stl &amp; update" />
+    <MESSAGE value="createing new branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="createing new branch" />
+  </component>
+</project>
