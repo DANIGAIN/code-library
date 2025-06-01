@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void init_code(){
+  #ifndef ONLINE_JUDGE 
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+  #endif  
+}
+
+
 void swap1(int x, int y) { // call by value
   int tamp = x;
   x = y;
@@ -20,6 +28,7 @@ void swap3(int& x, int& y) { // call by reference by address
 }
 
 int32_t main() {
+    init_code();
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 	int x = 10, y = 20;
