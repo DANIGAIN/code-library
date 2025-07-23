@@ -1,7 +1,8 @@
+array/*
+!array/*.cpp
 
-*
-*.txt
+basics/*
+!basics/*.cpp
 
-!*/
 
 
