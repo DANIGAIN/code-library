@@ -25,11 +25,21 @@ void allPossablePermutation(std::vector<int> &v, vector<vector<int>> &ans , int 
     }
 }
 
+bool isVectorEqual(vector<int> v1, vector<int> v2){
+	bool ok = true;
+	for(int i = 0 ;i < v1.size(); i++){
+		if(v1[i] != v2[i]){
+			ok = false;
+		}
+	}
+	return ok ;
+}
+
 int32_t main() {
     init_code();
 
     std::vector<int> v = {1,2,3};
-    // long long n = findPossableParmutation(v.size());
+    long long n = findPossableParmutation(v.size());
     vector<vector<int>> ans;
 
     std::vector<int> input = {1,2,3};
@@ -45,17 +55,15 @@ int32_t main() {
 
     cout << "Next permutation" << endl;
     bool flag = false ;
-    for(int i = 0 ;i< ans.size(); i++){
-    	for(int j = 0 ; j< ans[i].size() ; j++){
-    		if(ans[i][j] == input[j]){
-    			flag = true;
-    		}
-    	}
-    	if(flag){
-    		for(int j = 0 ; j< ans[i].size() ; j++){
-    		   cout << ans[i][j] << " ";
-    	    }
-    	    break ;
+    for(int i = 0; i< ans.size(); i++){
+    	// if(flag){
+    	// 	for(int j = 0; j < ans.size(); j++){
+    	// 	   cout << ans[i+1][j] << " ";
+     //        }
+    	// }
+    	cout << flag << endl;
+    	if(isVectorEqual(input, ans[i])){
+    		flag = true;
     	}
     }
 
